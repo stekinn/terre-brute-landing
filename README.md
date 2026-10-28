@@ -1,4 +1,4 @@
-# Terre Brute Atelier — Offrir un atelier
+# Terre Brute Atelier : Offrir un atelier
 
 Landing page pédagogique de la mission 1 du brief Oreegami. Intégration HTML5, CSS3 et JavaScript natif, sans framework CSS ni constructeur de pages.
 
