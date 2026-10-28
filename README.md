@@ -16,7 +16,7 @@ Landing page pédagogique de la mission 1 du brief Oreegami. Intégration HTML5,
 - index.html : structure sémantique et contenu.
 - assets/landing.css : charte, typographies et responsive.
 - assets/landing.js : calcul, validation, menu et FAQ.
-- assets/*.webp : images et texture issues des aperçus disponibles de la maquette.
+- assets/*.jpg et assets/*.webp : photos, texture et série de visuels Instagram.
 
 ## Voir la page
 
@@ -30,7 +30,7 @@ Les interactions et les largeurs mobiles ont été vérifiées sur l’intégrat
 
 Il s’agit d’une démonstration pédagogique. Le bouton de préparation affiche un message de démonstration : aucune réservation, aucun paiement ni achat réel n’est effectué. La vente en mode test relève du site WordPress de la mission 2.
 
-Les images disponibles sont de faible résolution et seront à remplacer par les originaux haute définition optimisés. Les avis agrégés et les données de l’atelier proviennent du scénario du brief ; ce ne sont pas des données vérifiées d’une entreprise réelle.
+Les photos et textures ont été remplacées par des fichiers de meilleure résolution optimisés pour le web. Les visuels Instagram ont été générés par IA pour cette maquette. Les témoignages nominatifs sont des exemples fictifs inspirés des personas. Les horaires sont une proposition de démonstration et l’adresse exacte reste à confirmer ; la carte situe uniquement le quartier des Chartrons. Les avis agrégés et les données de l’atelier proviennent du scénario du brief ; ce ne sont pas des données vérifiées d’une entreprise réelle.
 
 ## Usage de l’IA
 
@@ -43,3 +43,7 @@ Le code a été élaboré avec l’aide de Codex, à partir de la maquette Figma
 - Tester clavier, contrastes et affichage entre 320 et 1920 px.
 - Mesurer les performances de la page publiée.
 - Documenter les évolutions par des commits explicites.
+
+## Mise à jour du 28 octobre 2026
+
+Synchronisation avec la page WordPress : images haute définition, avis illustratifs, carte interactive, présentation des locaux et du futur espace de janvier 2027, aperçu Instagram en Fraunces et FAQ des horaires.
