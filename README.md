@@ -15,13 +15,17 @@ Accueil : index.html et assets/ historiques. Landing cadeaux : cartes-cadeaux.ht
 
 ## Dossier de remise du 29 octobre 2026
 
-Le ZIP Terre-Brute-livrables-1-2.zip contient les sources de la landing, l’extension WordPress 1.0.28, les maquettes SVG, les PDF et leurs sources Markdown, la recette et la préparation ElevenLabs. Les mots de passe et clés d’API sont exclus.
+Le ZIP Terre-Brute-livrables-1-2.zip contient les sources de la landing, l’extension WordPress 1.0.29, les maquettes SVG, les PDF et leurs sources Markdown, la recette et la configuration ElevenLabs. Les mots de passe et clés d’API sont exclus.
 
 Les trois PDF sont aussi disponibles à la racine du dépôt. Lire DOSSIER-REMISE.md pour l’installation et les limites. Ce paquet ne remplace pas une sauvegarde complète de WordPress. La connexion Gmail, Stripe et les contenus de la base ne sont pas exportés.
 
 ## Vérifications et limites
 
 Contrôles observés : stage × 4 = 720 €, quantité zéro rejetée, FAQ au clavier, panier WordPress et administration accessibles. Une réservation Stripe TEST n°69 avait été validée avec réduction du stock. La recette liste les autres contrôles encore ouverts, dont l’achat complet d’une carte cadeau. Les maquettes importées restent à relire visuellement. Aucun score Lighthouse, WAVE ou EcoIndex n’est revendiqué ; la mission 3 reste distincte.
+
+## Assistant Terra
+
+Terra est intégrée à WordPress en français, en texte et voix, avec une palette crème/terracotta. Les réponses écrites ont été testées (110 € pour deux initiations, fermeture du lundi, validité d’un an, réservation renvoyée vers le site). Le test vocal au microphone a été reporté par l’utilisateur. Réglages > Assistant Terra permet de désactiver le widget. Les informations de conversation sont documentées dans la confidentialité du site.
 
 ## Usage de l’IA
 
