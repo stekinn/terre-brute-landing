@@ -1,49 +1,28 @@
-# Terre Brute Atelier : Offrir un atelier
+# Terre Brute Atelier
 
-Landing page pédagogique de la mission 1 du brief Oreegami. Intégration HTML5, CSS3 et JavaScript natif, sans framework CSS ni constructeur de pages.
+Projet pédagogique Oreegami : HTML, CSS, JavaScript natifs et WordPress.
 
-## Fonctionnement
+## Parcours
 
-- Trois formules : initiation à 55 €, stage à 180 €, cycle à 390 €.
-- Simulateur : formule × nombre de personnes, de 1 à 8, montant actualisé en direct.
-- FAQ : accordéon avec boutons, aria-expanded et navigation au clavier.
-- Menu mobile, liens internes et cartes défilantes sur mobile.
-- Mise en page mobile-first, Flexbox et Grid ; points de rupture à 768 et 1100 px.
-- Respect de la préférence de réduction des animations.
+- [Accueil statique historique](https://stekinn.github.io/terre-brute-landing/) : conservé.
+- [Landing cartes cadeaux finale](https://stekinn.github.io/terre-brute-landing/cartes-cadeaux.html) : nouvelle page avec simulateur de prix et FAQ.
+- [Site WordPress](https://terre-brute-atelier.rf.gd/) : ateliers, dates, panier, Stripe TEST et e-mails.
+- [Maquettes mobile et desktop](https://www.figma.com/design/yhNE8liZh7H4gc0UU7i19d/Terre-Brute-Atelier---Landing-finale).
 
-## Fichiers
+## Sources et interactions
 
-- index.html : structure sémantique et contenu.
-- assets/landing.css : charte, typographies et responsive.
-- assets/landing.js : calcul, validation, menu et FAQ.
-- assets/*.jpg et assets/*.webp : photos, texture et série de visuels Instagram.
+Accueil : index.html et assets/ historiques. Landing cadeaux : cartes-cadeaux.html, cadeaux.css, cadeaux.js et cadeaux-*.jpg. Le simulateur calcule prix × personnes, entre 1 et 8, via input/change et Intl.NumberFormat. La FAQ details/summary est utilisable au clavier ; JavaScript synchronise aria-expanded. Les boutons de commande rejoignent WooCommerce.
 
-## Voir la page
+## Dossier de remise du 29 octobre 2026
 
-Ouvrir index.html dans un navigateur. Aucune compilation requise. Les polices Fraunces 600 et Inter sont chargées depuis Google Fonts ; une connexion est nécessaire pour ces polices.
+Le ZIP Terre-Brute-livrables-1-2.zip contient les sources de la landing, l’extension WordPress 1.0.28, les maquettes SVG, les PDF et leurs sources Markdown, la recette et la préparation ElevenLabs. Les mots de passe et clés d’API sont exclus.
 
-Pour GitHub Pages : Settings → Pages → Deploy from a branch → main → /(root).
+Les trois PDF sont aussi disponibles à la racine du dépôt. Lire DOSSIER-REMISE.md pour l’installation et les limites. Ce paquet ne remplace pas une sauvegarde complète de WordPress. La connexion Gmail, Stripe et les contenus de la base ne sont pas exportés.
 
 ## Vérifications et limites
 
-Les interactions et les largeurs mobiles ont été vérifiées sur l’intégration WordPress issue de ce code. Les validations W3C, l’audit Lighthouse et les essais complets de 320 à 1920 px de cette version statique restent à réaliser : aucun score n’est revendiqué.
-
-Il s’agit d’une démonstration pédagogique. Le bouton de préparation affiche un message de démonstration : aucune réservation, aucun paiement ni achat réel n’est effectué. La vente en mode test relève du site WordPress de la mission 2.
-
-Les photos et textures ont été remplacées par des fichiers de meilleure résolution optimisés pour le web. Les visuels Instagram ont été générés par IA pour cette maquette. Les témoignages nominatifs sont des exemples fictifs inspirés des personas. Les horaires sont une proposition de démonstration et l’adresse exacte reste à confirmer ; la carte situe uniquement le quartier des Chartrons. Les avis agrégés et les données de l’atelier proviennent du scénario du brief ; ce ne sont pas des données vérifiées d’une entreprise réelle.
+Contrôles observés : stage × 4 = 720 €, quantité zéro rejetée, FAQ au clavier, panier WordPress et administration accessibles. Une réservation Stripe TEST n°69 avait été validée avec réduction du stock. La recette liste les autres contrôles encore ouverts, dont l’achat complet d’une carte cadeau. Les maquettes importées restent à relire visuellement. Aucun score Lighthouse, WAVE ou EcoIndex n’est revendiqué ; la mission 3 reste distincte.
 
 ## Usage de l’IA
 
-Le code a été élaboré avec l’aide de Codex, à partir de la maquette Figma et du brief. Cette première publication rassemble le travail déjà réalisé ; elle ne reconstitue pas un historique de commits antérieur. Le journal détaillé des demandes, corrections et décisions doit être complété par l’apprenant et remis avec le dossier. Chaque partie du code doit pouvoir être expliquée à l’oral.
-
-## Suite du travail
-
-- Corriger les écarts visuels avec la maquette finale.
-- Valider HTML et CSS auprès du W3C et corriger les erreurs éventuelles.
-- Tester clavier, contrastes et affichage entre 320 et 1920 px.
-- Mesurer les performances de la page publiée.
-- Documenter les évolutions par des commits explicites.
-
-## Mise à jour du 28 octobre 2026
-
-Synchronisation avec la page WordPress : images haute définition, avis illustratifs, carte interactive, présentation des locaux et du futur espace de janvier 2027, aperçu Instagram en Fraunces et FAQ des horaires.
+Codex a aidé à produire le code, la documentation et les exports depuis le brief et les décisions de l’apprenant. Les textes et données de démonstration du projet ne prouvent pas l’existence d’une entreprise réelle. Le journal initial JOURNAL-IA.md est conservé ; la mise à jour actuelle ajoute une vraie publication datée, sans reconstituer d’anciens commits.
