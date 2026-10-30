@@ -30,10 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     update();
   });
-  // Le HTML details/summary reste utilisable sans JavaScript. Le script synchronise l’état accessible.
-  document.querySelectorAll('.gift-faq details').forEach(details => {
-    const summary = details.querySelector('summary');
-    const sync = () => summary.setAttribute('aria-expanded', String(details.open));
-    details.addEventListener('toggle', sync); sync();
+  // Boutons natifs : Entrée et Espace fonctionnent sans gestion clavier spéciale.
+  document.querySelectorAll('.gift-faq-toggle').forEach(button => {
+    const answer = document.getElementById(button.getAttribute('aria-controls'));
+    if (!answer) return;
+    answer.hidden = true;
+    button.setAttribute('aria-expanded', 'false');
+    button.addEventListener('click', () => {
+      const expanded = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!expanded));
+      answer.hidden = expanded;
+    });
   });
 });
